@@ -1,0 +1,575 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "premkumarbajaru",
+      "password": "Test@1234",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "ac47",
+      "username": "premkumarbajaru",
+      "password": "Test@1234",
+      "role": "user"
+    },
+    {
+      "id": "2dbd",
+      "username": "joseph",
+      "password": "Prem@9030",
+      "email": "joseph@gmail.com",
+      "firstName": "joseph",
+      "lastName": "joseph",
+      "role": "user"
+    },
+    {
+      "id": "5624",
+      "username": "premkumarbajaru",
+      "password": "Prem@9030",
+      "role": "user"
+    },
+    {
+      "id": "a14c",
+      "username": "premkumarbajaru",
+      "password": "Prem@9030",
+      "role": "user"
+    },
+    {
+      "id": "4465",
+      "username": "premkumar",
+      "password": "Prem@9030",
+      "role": "user"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "quizName": "HTML",
+      "assignedTo": "joseph",
+      "published": true
+    },
+    {
+      "id": "2",
+      "quizName": "CSS",
+      "assignedTo": "premkumarbajaru",
+      "published": true
+    },
+    {
+      "id": "3",
+      "quizName": "JavaScript",
+      "assignedTo": "premkumarbajaru"
+    },
+    {
+      "id": "4",
+      "quizName": "React",
+      "assignedTo": "user"
+    },
+    {
+      "id": "5",
+      "quizName": "React Native",
+      "assignedTo": "user"
+    },
+    {
+      "id": "6",
+      "quizName": "Angular",
+      "assignedTo": "user"
+    },
+    {
+      "id": "7",
+      "quizName": "Bootstrap",
+      "assignedTo": "premkumarbajaru"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "quizId": 1,
+      "text": "What does HTML stand for?",
+      "type": "MCQ",
+      "options": [
+        "Hyper Text Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language",
+      "userAnswer": "Hyperlinks and Text Markup Language"
+    },
+    {
+      "id": "2",
+      "quizId": 1,
+      "text": "Which tag is used to create a hyperlink in HTML?",
+      "type": "MCQ",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>"
+      ],
+      "answer": "<a>",
+      "userAnswer": "<link>"
+    },
+    {
+      "id": "3",
+      "quizId": 1,
+      "text": "What is the correct HTML element for inserting a line break?",
+      "type": "MCQ",
+      "options": [
+        "<br>",
+        "<lb>",
+        "<break>"
+      ],
+      "answer": "<br>",
+      "userAnswer": "<lb>"
+    },
+    {
+      "id": "4",
+      "quizId": 1,
+      "text": "Which HTML attribute is used to define inline styles?",
+      "type": "MCQ",
+      "options": [
+        "class",
+        "style",
+        "font"
+      ],
+      "answer": "style",
+      "userAnswer": "font"
+    },
+    {
+      "id": "5",
+      "quizId": 1,
+      "text": "What is the correct HTML for creating a checkbox?",
+      "type": "MCQ",
+      "options": [
+        "<input type='checkbox'>",
+        "<checkbox>",
+        "<input type='check'>"
+      ],
+      "answer": "<input type='checkbox'>",
+      "userAnswer": "<checkbox>"
+    },
+    {
+      "id": "6",
+      "quizId": 1,
+      "text": "Which HTML element is used to define the title of a document?",
+      "type": "MCQ",
+      "options": [
+        "<title>",
+        "<head>",
+        "<meta>"
+      ],
+      "answer": "<title>",
+      "userAnswer": "<head>"
+    },
+    {
+      "id": "7",
+      "quizId": 1,
+      "text": "What is the correct HTML for adding a background color?",
+      "type": "MCQ",
+      "options": [
+        "<body style='background-color:yellow;'>",
+        "<background>yellow</background>",
+        "<body bg='yellow'>"
+      ],
+      "answer": "<body style='background-color:yellow;'>",
+      "userAnswer": "<body bg='yellow'>"
+    },
+    {
+      "id": "8",
+      "quizId": 1,
+      "text": "Which HTML element is used to define a table row?",
+      "type": "MCQ",
+      "options": [
+        "<tr>",
+        "<td>",
+        "<th>"
+      ],
+      "answer": "<tr>",
+      "userAnswer": "<tr>"
+    },
+    {
+      "id": "9",
+      "quizId": 1,
+      "text": "What is the correct HTML for creating a dropdown list?",
+      "type": "MCQ",
+      "options": [
+        "<select>",
+        "<list>",
+        "<dropdown>"
+      ],
+      "answer": "<select>",
+      "userAnswer": "<list>"
+    },
+    {
+      "id": "10",
+      "quizId": 1,
+      "text": "Which HTML element is used to define the footer of a document?",
+      "type": "MCQ",
+      "options": [
+        "<footer>",
+        "<bottom>",
+        "<foot>"
+      ],
+      "answer": "<footer>",
+      "userAnswer": "<bottom>"
+    },
+    {
+      "id": "11",
+      "quizId": 2,
+      "text": "What does CSS stand for?",
+      "type": "MCQ",
+      "options": [
+        "Cascading Style Sheets",
+        "Colorful Style Sheets",
+        "Computer Style Sheets"
+      ],
+      "answer": "Cascading Style Sheets",
+      "userAnswer": null
+    },
+    {
+      "id": "12",
+      "quizId": 2,
+      "text": "Which CSS property is used to change the text color of an element?",
+      "type": "MCQ",
+      "options": [
+        "color",
+        "text-color",
+        "font-color"
+      ],
+      "answer": "color",
+      "userAnswer": null
+    },
+    {
+      "id": "13",
+      "quizId": 2,
+      "text": "Which CSS property is used to control the spacing between elements?",
+      "type": "MCQ",
+      "options": [
+        "margin",
+        "padding",
+        "spacing"
+      ],
+      "answer": "margin",
+      "userAnswer": null
+    },
+    {
+      "id": "14",
+      "quizId": 2,
+      "text": "Which CSS property is used to make text bold?",
+      "type": "MCQ",
+      "options": [
+        "font-weight",
+        "bold",
+        "text-bold"
+      ],
+      "answer": "font-weight",
+      "userAnswer": null
+    },
+    {
+      "id": "15",
+      "quizId": 2,
+      "text": "Which CSS property is used to add a background image?",
+      "type": "MCQ",
+      "options": [
+        "background-image",
+        "image",
+        "bg-image"
+      ],
+      "answer": "background-image",
+      "userAnswer": null
+    },
+    {
+      "id": "16",
+      "quizId": 2,
+      "text": "Which CSS property is used to control the size of an element's font?",
+      "type": "MCQ",
+      "options": [
+        "font-size",
+        "text-size",
+        "size"
+      ],
+      "answer": "font-size",
+      "userAnswer": null
+    },
+    {
+      "id": "17",
+      "quizId": 2,
+      "text": "Which CSS property is used to align text horizontally?",
+      "type": "MCQ",
+      "options": [
+        "text-align",
+        "align",
+        "horizontal-align"
+      ],
+      "answer": "text-align",
+      "userAnswer": null
+    },
+    {
+      "id": "18",
+      "quizId": 2,
+      "text": "Which CSS property is used to add space inside an element?",
+      "type": "MCQ",
+      "options": [
+        "padding",
+        "margin",
+        "spacing"
+      ],
+      "answer": "padding",
+      "userAnswer": null
+    },
+    {
+      "id": "19",
+      "quizId": 2,
+      "text": "Which CSS property is used to create rounded corners?",
+      "type": "MCQ",
+      "options": [
+        "border-radius",
+        "corner-radius",
+        "rounded"
+      ],
+      "answer": "border-radius",
+      "userAnswer": null
+    },
+    {
+      "id": "20",
+      "quizId": 2,
+      "text": "Which CSS property is used to control the visibility of an element?",
+      "type": "MCQ",
+      "options": [
+        "visibility",
+        "display",
+        "opacity"
+      ],
+      "answer": "visibility",
+      "userAnswer": null
+    },
+    {
+      "id": "21",
+      "quizId": 3,
+      "text": "What is the output of `console.log(typeof null)` in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "object",
+        "null",
+        "undefined"
+      ],
+      "answer": "object"
+    },
+    {
+      "id": "22",
+      "quizId": 3,
+      "text": "Which keyword is used to declare a variable in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "var",
+        "let",
+        "both var and let"
+      ],
+      "answer": "both var and let"
+    },
+    {
+      "id": "23",
+      "quizId": 3,
+      "text": "What is the purpose of the `this` keyword in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "Refers to the current object",
+        "Refers to the parent object",
+        "Refers to the global object"
+      ],
+      "answer": "Refers to the current object"
+    },
+    {
+      "id": "24",
+      "quizId": 3,
+      "text": "What is the result of `3 + '3'` in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "6",
+        "33",
+        "NaN"
+      ],
+      "answer": "33"
+    },
+    {
+      "id": "25",
+      "quizId": 3,
+      "text": "Which method is used to add an element to the end of an array in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "push()",
+        "pop()",
+        "shift()"
+      ],
+      "answer": "push()"
+    },
+    {
+      "id": "26",
+      "quizId": 3,
+      "text": "What is the purpose of the `use strict` directive in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "Enforces stricter parsing and error handling",
+        "Allows the use of undeclared variables",
+        "Disables all JavaScript features"
+      ],
+      "answer": "Enforces stricter parsing and error handling"
+    },
+    {
+      "id": "27",
+      "quizId": 3,
+      "text": "What is the output of `console.log(0 == '0')` in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "true",
+        "false",
+        "undefined"
+      ],
+      "answer": "true"
+    },
+    {
+      "id": "28",
+      "quizId": 3,
+      "text": "Which function is used to parse a string to an integer in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "parseInt()",
+        "parseFloat()",
+        "Number()"
+      ],
+      "answer": "parseInt()"
+    },
+    {
+      "id": "29",
+      "quizId": 3,
+      "text": "What is the purpose of the `map()` function in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "Creates a new array by applying a function to each element",
+        "Filters elements based on a condition",
+        "Reduces the array to a single value"
+      ],
+      "answer": "Creates a new array by applying a function to each element"
+    },
+    {
+      "id": "30",
+      "quizId": 3,
+      "text": "What is the output of `console.log(typeof [])` in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "object",
+        "array",
+        "undefined"
+      ],
+      "answer": "object"
+    },
+    {
+      "id": "31",
+      "quizId": 4,
+      "text": "What is React?",
+      "type": "MCQ",
+      "options": [
+        "A JavaScript library for building user interfaces",
+        "A programming language",
+        "A database management system"
+      ],
+      "answer": "A JavaScript library for building user interfaces"
+    },
+    {
+      "id": "32",
+      "quizId": 4,
+      "text": "What is the purpose of the `useState` hook in React?",
+      "type": "MCQ",
+      "options": [
+        "To manage state in functional components",
+        "To create a new component",
+        "To handle side effects"
+      ],
+      "answer": "To manage state in functional components"
+    },
+    {
+      "id": "33",
+      "quizId": 4,
+      "text": "What is the virtual DOM in React?",
+      "type": "MCQ",
+      "options": [
+        "A lightweight copy of the real DOM",
+        "A database for storing React components",
+        "A tool for debugging React applications"
+      ],
+      "answer": "A lightweight copy of the real DOM"
+    },
+    {
+      "id": "34",
+      "quizId": 4,
+      "text": "What is the purpose of the `key` prop in React?",
+      "type": "MCQ",
+      "options": [
+        "To uniquely identify elements in a list",
+        "To define the style of a component",
+        "To handle user input"
+      ],
+      "answer": "To uniquely identify elements in a list"
+    },
+    {
+      "id": "35",
+      "quizId": 4,
+      "text": "What is the output of `console.log(React.version)`?",
+      "type": "F/B",
+      "answer": "The current version of React"
+    },
+    {
+      "id": "36",
+      "quizId": 4,
+      "text": "What is the purpose of the `useEffect` hook in React?",
+      "type": "Q&A",
+      "answer": "To perform side effects in functional components"
+    },
+    {
+      "id": "37",
+      "quizId": 4,
+      "text": "What is JSX in React?",
+      "type": "MCQ",
+      "options": [
+        "A syntax extension for JavaScript",
+        "A new programming language",
+        "A database query language"
+      ],
+      "answer": "A syntax extension for JavaScript"
+    },
+    {
+      "id": "38",
+      "quizId": 4,
+      "text": "What is the purpose of the `React.Fragment` component?",
+      "type": "MCQ",
+      "options": [
+        "To group multiple elements without adding extra nodes to the DOM",
+        "To create a new component",
+        "To handle user input"
+      ],
+      "answer": "To group multiple elements without adding extra nodes to the DOM"
+    },
+    {
+      "id": "39",
+      "quizId": 4,
+      "text": "What is the purpose of the `useContext` hook in React?",
+      "type": "MCQ",
+      "options": [
+        "To access context in functional components",
+        "To manage state in class components",
+        "To handle side effects"
+      ],
+      "answer": "To access context in functional components"
+    },
+    {
+      "id": "40",
+      "quizId": 4,
+      "text": "What is the output of `console.log(React.Component)`?",
+      "type": "F/B",
+      "answer": "The base class for React components"
+    }
+  ]
+}

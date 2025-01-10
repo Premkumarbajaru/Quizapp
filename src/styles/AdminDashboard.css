@@ -1,0 +1,126 @@
+/* AdminDashboard Component Styles */
+.admin-dashboard-container {
+    background-color: #19cfbf; /* Green background color */
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px; /* Add some padding */
+  }
+  
+  .admin-dashboard-container .container {
+    background-color: #fff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Add padding inside the container */
+    margin-top: 20px; /* Add margin at the top */
+  }
+  
+  .admin-dashboard-container h2 {
+    color: #333; /* Dark text for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .admin-dashboard-container .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Add spacing between buttons */
+  }
+  
+  .admin-dashboard-container .btn-primary {
+    background-color: #007bff; /* Blue for Create User button */
+    border-color: #007bff;
+  }
+  
+  .admin-dashboard-container .btn-success {
+    background-color: #28a745; /* Green for Create Quiz button */
+    border-color: #28a745;
+  }
+  
+  .admin-dashboard-container .btn-danger {
+    background-color: #dc3545; /* Red for Delete and Remove User buttons */
+    border-color: #dc3545;
+  }
+  
+  .admin-dashboard-container .btn:hover {
+    opacity: 0.9; /* Slightly fade buttons on hover */
+  }
+  
+  .admin-dashboard-container h3 {
+    color: #333; /* Dark text for the subheading */
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .admin-dashboard-container .table {
+    background-color: #fff; /* White background for the table */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    border-collapse: collapse; /* Remove spacing between table cells */
+  }
+  
+  .admin-dashboard-container .table th,
+  .admin-dashboard-container .table td {
+    padding: 12px; /* Add padding to table cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Add a border between rows */
+  }
+  
+  .admin-dashboard-container .table th {
+    background-color: #f8f9fa; /* Light gray background for table headers */
+    color: #333; /* Dark text for table headers */
+    font-weight: 600; /* Bold text for headers */
+  }
+  
+  .admin-dashboard-container .table td {
+    color: #555; /* Medium-dark text for table data */
+  }
+  
+  .admin-dashboard-container .form-control {
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #ccc; /* Light border */
+    padding: 10px; /* Add padding inside inputs */
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Add spacing below inputs */
+  }
+  
+  .admin-dashboard-container .form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow */
+  }
+  
+  .admin-dashboard-container .btn-sm {
+    font-size: 0.875rem; /* Smaller font size for small buttons */
+    padding: 8px 16px; /* Smaller padding for small buttons */
+  }
+  
+  .admin-dashboard-container .mb-2 {
+    margin-bottom: 10px; /* Add spacing below elements */
+  }
+
+  /* AdminDashboard.css */
+
+/* Style for the actions cell */
+.admin-dashboard-container .actions-cell {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Add spacing between buttons */
+  }
+  
+  /* Style for the assign dropdown */
+  .admin-dashboard-container .assign-dropdown {
+    width: 100%; /* Full width for the dropdown */
+  }
+  
+  /* Style for the buttons */
+  .admin-dashboard-container .actions-cell .btn {
+    width: 100%; /* Full width for buttons */
+    text-align: center; /* Center text inside buttons */
+  }
+  
+  /* Adjust button sizes for better alignment */
+  .admin-dashboard-container .actions-cell .btn-sm {
+    padding: 8px 16px; /* Consistent padding for small buttons */
+  }

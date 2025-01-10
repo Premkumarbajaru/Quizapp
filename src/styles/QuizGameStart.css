@@ -1,0 +1,194 @@
+/* styles/QuizGameStart.css */
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0080ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.question-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #495057;
+  margin-bottom: 20px;
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+}
+
+.option-button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #007bff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.option-button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.option-button.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.clear-button {
+  padding: 10px 20px;
+  border: 2px solid #dc3545;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #dc3545;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.clear-button:hover:not(:disabled) {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.clear-button:disabled {
+  border-color: #6c757d;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.next-button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.completed-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #8e6969;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.completed-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.score-text {
+  font-size: 1.5rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+/* styles/QuizGameStart.css */
+.completed-container {
+  text-align: center;
+  padding: 290px;
+  background-color: #00f6b8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.completed-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.score-text {
+  font-size: 1.5rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.save-button,
+.preview-button,
+.publish-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.save-button {
+  background-color: #007bff;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+.preview-button {
+  background-color: #6c757d;
+}
+
+.preview-button:hover {
+  background-color: #5a6268;
+}
+
+.publish-button {
+  background-color: #28a745;
+}
+
+.publish-button:hover {
+  background-color: #218838;
+}

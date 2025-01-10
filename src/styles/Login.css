@@ -1,0 +1,82 @@
+/* Login Component Styles */
+.login-container {
+  background-color: #19cfbf; /* Green background color */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add some padding */
+}
+
+.login-card {
+  background-color: #fff; /* White background for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Add padding inside the card */
+  width: 100%;
+  max-width: 400px; /* Limit card width */
+}
+
+.login-title {
+  color: #333; /* Dark text for the heading */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  color: #555; /* Medium-dark text for labels */
+  font-weight: 500;
+}
+
+.form-control {
+  border-radius: 5px; /* Rounded corners for inputs */
+  border: 1px solid #ccc; /* Light border */
+  padding: 10px; /* Add padding inside inputs */
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow */
+}
+
+.login-button {
+  background-color: #007bff; /* Blue for Login button */
+  border: none;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.text-danger {
+  color: #dc3545; /* Red for error messages */
+  font-size: 0.875rem;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.forgot-password {
+  color: #007bff; /* Blue for forgot password link */
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.forgot-password:hover {
+  text-decoration: underline; /* Underline on hover */
+}
